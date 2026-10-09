@@ -2,6 +2,8 @@
 
 CarBooking is a school-project web app for driver-led rides, self-drive rentals, and food/item delivery. Customers and company managers use the main page; drivers use a separate mobile-friendly page. A Node.js/Express API stores shared data in SQLite on the host PC. This is a browser-based app, not a native Android/iOS package.
 
+Source repository: [github.com/poetaytoes/car-booking-app](https://github.com/poetaytoes/car-booking-app).
+
 ## What the source currently supports
 
 | Area | Behavior |
