@@ -1,0 +1,18 @@
+node_modules/
+dist/
+dist-test/
+.env
+data/
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/.jwt-secret
+coverage/
+*.log
+documents/
+document 2.0/
+presentations/
+.codex-finalizer/
+.continue/
+.document-format-qa/
+.presentation-build/

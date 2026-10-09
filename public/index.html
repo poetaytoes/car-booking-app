@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#123047" />
+    <title>RideWise | Car booking</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="RideWise home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>RideWise</span>
+      </a>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation"></nav>
+      <div id="account-actions" class="account-actions"></div>
+    </header>
+
+    <main id="app" class="page-shell" tabindex="-1"></main>
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <template id="auth-template">
+      <section class="auth-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Simple travel, one place</p>
+          <h1>Book a ride that fits your day.</h1>
+          <p>Choose Saver, Standard, or Luxury vehicles. Arrange food and item deliveries from the same account.</p>
+          <div class="hero-points">
+            <span>4 &amp; 7 seaters</span><span>Clear prices</span><span>Flexible delivery</span>
+          </div>
+        </div>
+        <section class="auth-card card" aria-labelledby="auth-title">
+          <div class="tab-row" role="tablist" aria-label="Account access">
+            <button class="tab-button is-active" type="button" data-auth-tab="login">Sign in</button>
+            <button class="tab-button" type="button" data-auth-tab="register">Create account</button>
+          </div>
+          <div id="auth-form-slot"></div>
+        </section>
+      </section>
+    </template>
+
+    <script type="module" src="/js/app.js"></script>
+  </body>
+</html>
